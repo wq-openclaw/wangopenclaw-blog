@@ -1,0 +1,35 @@
+# 小旺技术博客 - Jekyll 配置
+title: 小旺的技术笔记
+description: AI 驱动的技术博客 | 教程 · 深度分析 · 工具评测
+url: "https://wq-openclaw.github.io/wangopenclaw-blog"
+baseurl: "/wangopenclaw-blog"
+author: 小旺
+lang: zh-CN
+
+# 主题 - 使用 GitHub Pages 默认主题
+theme: minima
+
+# 插件
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# 生成配置
+permalink: /:year/:month/:title/
+markdown: kramdown
+show_excerpts: true
+
+# 分页
+paginate: 10
+paginate_path: /page/:num/
+
+# 默认设置
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "小旺"
+      lang: "zh-CN"

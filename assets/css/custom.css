@@ -1,0 +1,135 @@
+/* 小旺博客自定义样式 */
+
+/* Hero 区域 */
+.hero {
+  text-align: center;
+  padding: 3rem 1rem;
+  margin-bottom: 2rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 12px;
+  color: white;
+}
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: white;
+}
+.hero-subtitle {
+  font-size: 1.2rem;
+  opacity: 0.9;
+  margin-bottom: 0.3rem;
+}
+.hero-desc {
+  font-size: 1rem;
+  opacity: 0.75;
+}
+
+/* 文章卡片 */
+.post-list h2 {
+  border-bottom: 2px solid #667eea;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+.post-card {
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  transition: box-shadow 0.2s;
+}
+.post-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.post-meta {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+.category-tag {
+  display: inline-block;
+  background: #667eea;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  margin-left: 0.5rem;
+}
+.post-card h3 {
+  margin: 0 0 0.5rem 0;
+}
+.post-card h3 a {
+  color: #333;
+  text-decoration: none;
+}
+.post-card h3 a:hover {
+  color: #667eea;
+}
+.post-excerpt {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 0.5rem;
+}
+.read-more {
+  font-size: 0.9rem;
+  color: #667eea;
+  text-decoration: none;
+  font-weight: 600;
+}
+.read-more:hover {
+  text-decoration: underline;
+}
+
+/* 分页 */
+.pagination {
+  text-align: center;
+  padding: 2rem 0;
+}
+.pagination a {
+  color: #667eea;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border: 1px solid #667eea;
+  border-radius: 4px;
+  margin: 0 0.5rem;
+}
+.pagination a:hover {
+  background: #667eea;
+  color: white;
+}
+.page-num {
+  margin: 0 1rem;
+  color: #666;
+}
+
+/* 文章页 */
+.post-content {
+  line-height: 1.8;
+  font-size: 1.05rem;
+}
+.post-content h2 {
+  margin-top: 2rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.3rem;
+}
+.post-content pre {
+  background: #f5f5f5;
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+}
+.post-content code {
+  background: #f0f0f0;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-size: 0.95em;
+}
+.post-content pre code {
+  background: none;
+  padding: 0;
+}
+
+/* 响应式 */
+@media (max-width: 768px) {
+  .hero h1 { font-size: 1.8rem; }
+  .hero { padding: 2rem 1rem; }
+}
