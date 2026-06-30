@@ -1,46 +1,49 @@
-# 灏忔椇鎶€鏈崥瀹?- Jekyll 閰嶇疆锛圫EO浼樺寲鐗堬級
-title: 灏忔椇鐨勬妧鏈瑪璁?title_seo: 灏忔椇鐨勬妧鏈瑪璁?- AI璧嬭兘鐨勯珮璐ㄩ噺鎶€鏈崥瀹?description: 姣忓ぉ涓€绡囨湁骞茶揣鐨勬妧鏈枃绔犮€傚伐鍏疯瘎娴嬨€佽俯鍧戣褰曘€佹晥鐜囨妧宸с€佽嚜鍔ㄥ寲瀹炴垬锛岀敤AI杩愯惀鐨勬妧鏈崥瀹紝涓撴敞缂栫▼銆丏evOps鍜屾晥鐜囨彁鍗?url: "https://wq-openclaw.github.io/wangopenclaw-blog"
+# 小旺技术博客 - Jekyll 配置（SEO优化版）
+title: 小旺的技术笔记
+title_seo: 小旺的技术笔记 - AI赋能的高质量技术博客
+description: 每天一篇有干货的技术文章。工具评测、踩坑记录、效率技巧、自动化实战，用AI运营的技术博客，专注编程、DevOps和效率提升
+url: "https://wq-openclaw.github.io/wangopenclaw-blog"
 baseurl: "/wangopenclaw-blog"
-author: 灏忔椇
+author: 小旺
 lang: zh-CN
 
-# 涓婚
+# 主题
 theme: minima
 
 # SEO
-google_analytics: G-XXXXXXXXXX  # 鍏堝崰浣嶏紝绛変綘閰嶇疆
+google_analytics: G-XXXXXXXXXX  # 先占位，等你配置
 logo: /assets/logo.png
 
-# 鎻掍欢
+# 插件
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
 
-# 鐢熸垚閰嶇疆
+# 生成配置
 permalink: /:year/:month/:title/
 markdown: kramdown
 show_excerpts: true
 
-# 鍒嗛〉
+# 分页
 paginate: 10
 paginate_path: /page/:num/
 
-# 榛樿璁剧疆
+# 默认设置
 defaults:
   - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
-      author: "灏忔椇"
+      author: "小旺"
       lang: "zh-CN"
 
-# 绀句氦鏍囩
+# 社交标签
 social:
-  name: 灏忔椇
+  name: 小旺
   links:
     - https://github.com/wq-openclaw
 
-# 缃戦〉鏍囬鏍煎紡
+# 网页标题格式
 title_separator: " | "
